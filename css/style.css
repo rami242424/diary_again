@@ -1,0 +1,106 @@
+@import "./reset.css";
+:root {
+    --bg-dot: #FFFAF0;
+    --text1: #29363D;
+    --bg-gray: #F4F5F5;
+    --text3: #677880;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-dot);
+}
+.header_content {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.header_content__h1 {
+    margin: 22px 0 0 108px; 
+}
+
+.header_content__join {
+    margin: 40px 108px 0 0;
+}
+
+.header_content__join span {
+    background-image: url("../image/icon-join.png");
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position: 10px;
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px 0 46px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content h2{
+    margin :71px 0 29px 0;
+}
+
+.main_content span {
+    color: var(--text1);
+    font-family: Pretendard;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.main_content form {
+    display: flex;
+    flex-direction: column;
+    color: var(--text1);
+    font-family: Pretendard-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_content input {
+    width: 392px;
+    height: 48px;
+    border: none;
+    border-bottom:1px solid black;
+    border-radius: 4px 4px 0 0;
+
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 8px 0 24px 0;
+}
+
+.main_content button {
+    width: 392px;
+    height: 48px;
+    border-radius: 4px;
+    background: var(--text1);
+    color: var(--bg-gray);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 52px;
+}
+
+footer p {
+    color: var(--text3);
+    font-family: Pretendard-Regular;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
